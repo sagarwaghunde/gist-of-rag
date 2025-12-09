@@ -174,6 +174,7 @@ result = chain.invoke(input={})
 ```
 
 ### Retrieval QA Chain (with Pinecone)
+In the retrieval chain, the process begins by embedding the query, which allows the system to find and retrieve similar documents. This ensures that both the query and the relevant documents are sent together to the LLM, enabling a more contextual and informed response.
 
 Using LangChain's pre-built retrieval chain:
 
