@@ -1,4 +1,4 @@
-# trotroduction to Vector Databases & RAG
+# Introduction to Vector Databases & RAG
 
 A hands-on project demonstrating **Retrieval Augmented Generation (RAG)** using LangChain, OpenAI, and Pinecone vector database.
 
@@ -88,7 +88,7 @@ Text splitters help break large documents ointo smaller chunks to:
 ## 📁 Project Structure
 
 ```
-gist-of-rag/
+intro-to-vector-dbs/
 ├── ingestion.py      # Document loading, splitting, embedding & storing
 ├── main.py           # Retrieval and query chains
 ├── mediumblog1.txt   # Sample document for ingestion
