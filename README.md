@@ -247,6 +247,7 @@ The default **"stuffing" strategy** combines all retrieved documents directly in
 ### Supported Document Loaders
 
 LangChain supports various document types:
+Ref : https://docs.langchain.com/oss/python/integrations/document_loaders
 - `TextLoader` — Plain text files
 - `WebBaseLoader` — Web pages
 - `PyPDFLoader` — PDF documents
